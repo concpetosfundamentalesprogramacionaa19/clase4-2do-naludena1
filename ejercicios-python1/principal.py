@@ -1,10 +1,12 @@
 """
-    @reroes
+    @naludena1
     Ejemplo de manejo de paquetes
 """
 
 from paquete1.informacion import valores
+from paquete1.informacion2 import hacer_potencia
 
 
 for l in valores:
-    print(l)
+	r = hacer_potencia(l, 2)
+	print("Valor %d elevado a la potencia %d es igual a %.2f" % (l, 2, r))

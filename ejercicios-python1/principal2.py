@@ -1,5 +1,5 @@
 """
-    @reroes
+    @naludena1
     Manejo de estructuras
 """
 
@@ -8,7 +8,9 @@ lista2 = ["Loja", "Azuay"]
 
 
 for l in range(0, len(lista)):
-    print(lista[l])
-    print(lista2[l])
+    
+    print ("%S %S" % (lista[l], lista2[l]))
+
+    
 
 
